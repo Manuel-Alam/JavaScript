@@ -1,5 +1,4 @@
 Name: Manuel Alam
-Student Number: 101182018 
 
 Files:
 Images Folder (contains all the images for the items)

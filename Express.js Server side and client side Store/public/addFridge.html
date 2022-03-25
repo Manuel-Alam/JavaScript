@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  
+    <link rel="stylesheet" href="/comm-fridge.css" />
+  </head>
+
+  <body id= "add_fridge">
+    <menu>
+      <a href="../index.html"><i class="fas fa-bars"></i></a>
+    </menu>
+    <section>
+    <h1>Add a new fridge</h1>
+      <form>
+        <label for="fridgeName">fridgeName:</label>
+        <input type="text" id="fridgeName" name="fridgeName"><br><br>
+        <label for="numItemsAccepted">numItemsAccepted:</label>
+        <input type="text" id="numItemsAccepted" name="numItemsAccepted"><br><br>
+        <label for="accepted_types" id="lbl_select">accepted_types:</label>
+      <select id="accepted_types" size="4">
+      </select><br><br>
+        <label for="contactPerson">contactPerson:</label>
+        <input type="text" id="contactPerson" name="contactPerson"><br><br>
+        <label for="contactPhone">contactPhone:</label>
+        <input type="text" id="contactPhone" name="contactPhone"><br><br>
+        <label for="streetName">streetName:</label>
+        <input type="text" id="streetName" name="streetName"><br><br>
+        <label for="postalCode">postalCode:</label>
+        <input type="text" id="postalCode" name="postalCode"><br><br>
+        <label for="city">city:</label>
+        <input type="text" id="city" name="city"><br><br>
+        <label for="province">province:</label>
+        <input type="text" id="province" name="province"><br><br>
+        <input type="submit" id="btnSubmit" value="Submit" />
+      </form>
+
+    
+    </section>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/comm-fridge.js"></script>
+</html>

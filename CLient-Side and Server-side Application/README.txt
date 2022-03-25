@@ -1,5 +1,4 @@
 Name: Manuel Alam
-Student Number: 101182018 
 
 Files: 
 css folder (contains css for all code)
